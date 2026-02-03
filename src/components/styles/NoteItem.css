@@ -1,0 +1,32 @@
+.low {
+    margin-right: 10px;
+    color: green;
+    border-radius: 3px;
+    transition: all 0.7s;
+}
+
+.medium {
+    margin-right: 10px;
+    border-radius: 3px;
+    color: orange;
+    transition: all 0.7s;
+}
+
+.high {
+    margin-right: 10px;
+    border-radius: 3px;
+    color: red;
+    transition: all 0.7s;
+}
+
+.low:hover {
+    scale: 2;
+}
+
+.medium:hover {
+    scale: 2;
+}
+
+.high:hover {
+    scale: 2;
+}

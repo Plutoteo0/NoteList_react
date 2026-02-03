@@ -1,0 +1,12 @@
+import './styles/NoteItem.css'
+
+export default function NoteItem({ note, onDelete, onChange }) {
+    return(
+        <>  
+        <span onClick={() => onChange(note.id)} className={note.priority}>
+            {note.text}
+        </span>
+            <button onClick={() => onDelete(note.id)}>Delete</button>
+        </>
+    );
+}
