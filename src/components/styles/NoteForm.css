@@ -1,0 +1,65 @@
+.inputNote {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 3px rgba(0, 0, 0, 0.1) inset ;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.inputNote:focus {
+    border: rgba(0, 0, 0, 0.1) inset ;
+    box-shadow: 0 0 5px #007bff;
+    transform: scale(1.05);
+}
+
+.selectForm {
+    margin-left: 10px;
+    outline: none;
+    padding: 4px 6px;
+    border: 3px rgba(0, 0, 0, 0.1) outset ;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.selectForm:focus {
+    box-shadow: 0 0 8px #007bff;
+    border: 3px rgba(0, 0, 0, 0.1) inset ;
+}
+
+.selectForm:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #007bff;
+}
+
+.AddBtn {
+    margin-left: 10px;
+    outline: none;
+    padding: 4px 6px;
+    border: 3px rgba(0, 0, 0, 0.1) outset ;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.AddBtn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #007bff;
+}
+
+.DeleteBtn {
+    margin-left: 10px;
+    outline: none;
+    padding: 4px 6px;
+    border: 3px rgba(0, 0, 0, 0.1) outset ;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.DeleteBtn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #007bff;
+}
+
+

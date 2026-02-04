@@ -6,7 +6,7 @@ export default function NoteItem({ note, onDelete, onChange }) {
         <span onClick={() => onChange(note.id)} className={note.priority}>
             {note.text}
         </span>
-            <button onClick={() => onDelete(note.id)}>Delete</button>
+            <button className="DelBtn" onClick={() => onDelete(note.id)}>Delete</button>
         </>
     );
 }

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './styles/NoteForm.css'
 
 export default function NoteForm({ onAddNote, onDelete }) {
     const [text, setText] = useState("");
@@ -16,14 +17,14 @@ export default function NoteForm({ onAddNote, onDelete }) {
 
     return(
         <>
-        <input type="text" value={text} onChange={(e) => setText(e.target.value)}/> 
-        <select name="" id="" value={priority} onChange={(e) => setPriority(e.target.value)}>
+        <input type="text" placeholder="Type your note" value={text} onChange={(e) => setText(e.target.value)} className="inputNote"/> 
+        <select name="" id="" value={priority} onChange={(e) => setPriority(e.target.value)} className="selectForm">
             <option value="low">Low</option>
             <option value="medium">Medium</option>
             <option value="high">High</option>
         </select>
-        <button onClick={onHandleSet}>Add</button>
-        <button onClick={onDelete}>Delete</button>
+        <button onClick={onHandleSet} className="AddBtn">Add</button>
+        <button onClick={onDelete} className="DeleteBtn">Delete all</button>
         </>
     );
 }

@@ -1,6 +1,7 @@
 import { useState } from "react"
 import NoteList from "./components/NoteList"
 import NoteForm from "./components/NoteForm";
+import './components/styles/App.css'
 
 
 function App() {
