@@ -1,3 +1,8 @@
+Simple react app Note list (I just started to learn this framework/library )
+How to check/use just copy everything in your react project
+I`ll be glad if you can tell me something new, or teach me :))
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
